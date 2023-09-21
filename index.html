@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Philips</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <section class="hero w-100 h-100-v" id="hero">
+      <!-- *===================Navbar================== -->
+      <nav>
+        <div class="nav-container h-10-v w-100 flex">
+          <div class="nav-inner h-100-p w-80 flex-space">
+            <div class="logo h-100-p centered-items">
+              <img src="./assets/icons/Logo.png" alt="" />
+            </div>
+            <div class="nav-list w-40 h-100-p">
+              <ul class="nav-links flex-space h-100-p">
+                <li>Latest</li>
+                <li>Modern</li>
+                <li>Vintage</li>
+                <li>Classic</li>
+                <li>
+                  <div class="toggle-btn h-100-p">
+                    <button type="button" class="btn" id="btn">
+                      <span></span>
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- *===================Lamp==================== -->
+      <div class="lamp-container">
+        <img
+          src="./assets/images/lamp.png"
+          alt="lamp image here"
+          class="lamp"
+        />
+        <img
+          src="./assets/images/light.png"
+          alt="light image here"
+          class="light"
+          id="light"
+        />
+      </div>
+      <div class="text">
+        <h1>Instant Ambiance <br> for Any Occasion</h1>
+        <p>Philips Hue Go with white and colored light</p>
+        <a href="#">Explore More</a>
+      </div>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
